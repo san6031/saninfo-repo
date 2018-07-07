@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright 2015 Benedikt Ritter
+  Copyright 2018 san6031
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -18,8 +18,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.britter</groupId>
-    <artifactId>spring-boot-heroku-demo</artifactId>
+    <groupId>com.github.saninfo</groupId>
+    <artifactId>saninfo</artifactId>
     <version>0.2.6</version>
 
     <parent>
@@ -66,20 +66,11 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.hsqldb</groupId>
-            <artifactId>hsqldb</artifactId>
-        </dependency>
-        <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
             <version>1.1.0.Final</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.4-1203-jdbc42</version>
-        </dependency>
     </dependencies>
 
     <properties>
@@ -88,9 +79,9 @@
     </properties>
 
     <scm>
-        <url>https://github.com/britter/spring-boot-heroku-demo</url>
-        <connection>scm:git:git://github.com/britter/spring-boot-heroku-demo.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/britter/spring-boot-heroku-demo.git</developerConnection>
+        <url>https://github.com/san6031/saninfo-repo</url>
+        <connection>scm:git:git://github.com/san6031/saninfo-repo.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/san6031/saninfo-repo.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 

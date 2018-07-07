@@ -42,6 +42,10 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.MapBindingResult;
 import org.springframework.validation.ObjectError;
 
+import com.github.saninfo.HomeController;
+import com.github.saninfo.Record;
+import com.github.saninfo.RecordRepository;
+
 @RunWith(HierarchicalContextRunner.class)
 public class HomeControllerTest {
 

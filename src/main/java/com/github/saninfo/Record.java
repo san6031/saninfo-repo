@@ -1,4 +1,4 @@
-package com.github.britter.springbootherokudemo;
+package com.github.saninfo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
