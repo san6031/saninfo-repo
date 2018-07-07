@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.saninfo;
+package com.github.saninfo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -23,8 +23,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
 
 	@RequestMapping("/")
-    public String insertData(ModelMap model) {
+    public String home(ModelMap model) {
         
         return "home";
+    }
+	
+	@RequestMapping("/welcome")
+    public String welcome(ModelMap model) {
+        
+        return "welcome";
     }
 }
